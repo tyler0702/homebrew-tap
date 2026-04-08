@@ -1,14 +1,14 @@
 cask "villar" do
-  version "0.4.1"
+  version "0.4.2"
 
   on_arm do
     url "https://github.com/tyler0702/villar/releases/download/v#{version}/villar_#{version}_aarch64.dmg"
-    sha256 "362d63765758e1ae8c32c1830b5f11031ab4891cbe5494766336d48117ec5979"
+    sha256 "c816b16db141cd92eb82bcbb05bb015e179ff6cdf2da92a5e9d4aae6f79ff593"
   end
 
   on_intel do
     url "https://github.com/tyler0702/villar/releases/download/v#{version}/villar_#{version}_x64.dmg"
-    sha256 "7d5925e0442f9a06303dceec58d7c9a98166ecdb6767681b14eb24081dcea5a1"
+    sha256 "1aa34444acd09c6828162bff35d1719d1c57f8e0d6a097190452b2ec0a6e7e7c"
   end
 
   name "villar"
